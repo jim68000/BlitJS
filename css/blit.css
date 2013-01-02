@@ -1,0 +1,43 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: #111;
+	background-image: url(../res/space.png);
+	background-size: 200%;
+}
+
+#screen {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#ship {
+	width: 35px;
+	height: 40px;
+	top: 200px;
+	left: 200px;
+/*	background-color: red;*/
+	position: absolute;
+	background-image: url(../res/ship.png);
+/*	background-position: -237px -40px;*/
+}
+
+.bullet {
+	width: 3px;
+	height: 12px;
+	background-color: rgb(255,0,0);
+	position: absolute;
+	display: none;
+}
